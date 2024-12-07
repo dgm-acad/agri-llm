@@ -1,9 +1,9 @@
-from ..models.rag.config_setup import *
+from models.rag.config_setup import *
 from transformers import AutoTokenizer, AutoModel
 from sklearn.metrics.pairwise import cosine_similarity
 import torch
 import numpy as np
-from ..models.rag.fn_rag import *
+from models.rag.fn_rag import *
 
 class RAGEvaluator:
     def __init__(self, rag_system, evaluation_questions):
