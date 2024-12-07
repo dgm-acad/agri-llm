@@ -1,6 +1,6 @@
 
 
-from config_setup import *
+from models.rag.config_setup import *
 from langchain.document_loaders import TextLoader, DirectoryLoader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain.embeddings import HuggingFaceEmbeddings
