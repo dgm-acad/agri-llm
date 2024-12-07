@@ -1,5 +1,3 @@
-
-
 from ..models.rag.config_setup import *
 from transformers import AutoTokenizer, AutoModel
 from sklearn.metrics.pairwise import cosine_similarity
@@ -158,6 +156,8 @@ def format_evaluation_results(results):
         formatted_output.append(output)
 
     return "\n".join(formatted_output)
-        
-        
+
+
+def changes_from_local():
+    print("Hello!")
 
