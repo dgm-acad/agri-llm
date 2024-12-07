@@ -9,7 +9,7 @@ from dotenv import load_dotenv
 class Config:
     # Base paths
     ROOT_DIR = Path('/content/drive/MyDrive/')
-    DATA_DIR = ROOT_DIR / "data_argi_llm/kvk_pop/LAKSHADWEEP/lakshadweep/lakshadweep"
+    DATA_DIR = ROOT_DIR / "agri-llm/data_agri_llm/kvk_pop/LAKSHADWEEP/lakshadweep/lakshadweep"
     VECTOR_STORE_DIR = ROOT_DIR / "vector_store"
 
     # Model configurations
